@@ -1,6 +1,6 @@
-🐾 Aula 1 – Projeto ONG Alimente um Animal de Rua
+🐾 Aula 1 – Projeto ONG Alimente um Cão de Rua
 
-Nesta primeira aula, iniciei o desenvolvimento do projeto ONG Alimente um Animal de Rua, que tem como objetivo promover a conscientização e o apoio à causa animal, incentivando a alimentação e o cuidado com animais em situação de rua.
+Nesta primeira aula, iniciei o desenvolvimento do projeto ONG Alimente um Cão de Rua, que tem como objetivo promover a conscientização e o apoio à causa animal, incentivando a alimentação e o cuidado com cãoes em situação de rua.
 
 Durante esta etapa, foi apresentada a proposta do projeto, seus objetivos sociais e o planejamento inicial para o desenvolvimento da plataforma. Também discutimos as principais funcionalidades que o sistema deverá oferecer, como o cadastro de pontos de alimentação, voluntários, doações e informações sobre animais resgatados.
 
