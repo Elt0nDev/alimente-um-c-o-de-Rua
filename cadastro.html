@@ -1,0 +1,40 @@
+<section id="doacao">
+    <h2>Cadastro para Doações</h2>
+    <p>Se você deseja contribuir com nossa causa, preencha o formulário abaixo:</p>
+    <img src="Dados.png" alt="imagem ação" width="400">
+    <form onsubmit="cadastroDoacao(event)">
+        <input type="text" id="nome" placeholder="Nome completo" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="telefone" placeholder="Telefone (opcional)">
+        <select id="tipoDoacao" required>
+            <option value=\"\">Selecione o tipo de doação</option>
+            <option value=\"racao\">Doação de ração</option>
+            <option value=\"financeira\">Doação financeira</option>
+            <option value=\"voluntario\">Voluntariado</option>
+        </select>
+        <textarea id="mensagem" rows="4" placeholder="Mensagem (opcional)"></textarea>
+        <button type="submit">Cadastrar</button>
+    </form>
+</section>
+</main>
+
+<footer>
+    © <span id="ano"></span> ONG Alimente um Cão de Rua — Todos os direitos reservados.
+</footer>
+
+<script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+
+    function cadastroDoacao(e) {
+        e.preventDefault();
+        const nome = document.getElementById('nome').value;
+        const tipo = document.getElementById('tipoDoacao').value;
+        alert(`Obrigado, ${nome}! Seu cadastro para ${tipo} foi recebido.`);
+        e.target.reset();
+    }
+
+</script>
+
+</body>
+
+</html>
