@@ -32,4 +32,5 @@ Seção de recursos: dicas de cuidado, alimentação adequada e primeiros socorr
 
 Design responsivo e acessível (estrutura semântica e atributos ARIA onde aplicável).
 
-🔗Link da Hospedagem:  https://elt0ndev.github.io/alimente-um-c-o-de-Rua/
+🔗Link da Hospedagem Atv1 :
+🔗Link da Hospedagem Atv2 :  https://elt0ndev.github.io/alimente-um-c-o-de-Rua/
