@@ -1,25 +1,35 @@
-🐾 Aula 1 – Projeto ONG Alimente um Cão de Rua
+Alimente um Cão de Rua 
 
-Nesta primeira aula, iniciei o desenvolvimento do projeto ONG Alimente um Cão de Rua, que tem como objetivo promover a conscientização e o apoio à causa animal, incentivando a alimentação e o cuidado com cãoes em situação de rua.
+Projeto front‑end simples para divulgar e apoiar ações de cuidado com cães de rua. Feito com HTML, CSS e JavaScript. para as Atividades 1,2,3 e 4 
 
-Durante esta etapa, foi apresentada a proposta do projeto, seus objetivos sociais e o planejamento inicial para o desenvolvimento da plataforma. Também discutimos as principais funcionalidades que o sistema deverá oferecer, como o cadastro de pontos de alimentação, voluntários, doações e informações sobre animais resgatados.
+Descrição
 
-🎯 Objetivos da Aula
+Este repositório contém um site informativo e interativo cujo objetivo é sensibilizar a comunidade sobre a situação de cães em situação de rua, divulgar projetos sociais, permitir o cadastro de voluntários e facilitar doações (simuladas para fins de demonstração). O foco é didático: demonstrar boas práticas de estruturação HTML semântica, estilos com CSS (incluindo design responsivo) e interatividade básica com JavaScript.
 
-Compreender o propósito social do projeto.
+Demonstração
 
-Definir o escopo inicial e público-alvo.
+Aqui você pode inserir um link para a versão hospedada (GitHub Pages / Netlify) ou screenshots.
 
-Estruturar as primeiras ideias para o design e funcionalidades da aplicação.
+Tecnologias
 
-Organizar o repositório e a documentação no GitHub.
+HTML5 — marcação semântica, formulários e uso de imagens.
 
-💡 Próximos Passos
+CSS3 — layout responsivo com CSS Grid/Flexbox, variáveis CSS (custom properties) e sistema de design básico.
 
-Criação do layout inicial da plataforma.
+JavaScript (Vanilla) — manipulação do DOM, validação de formulários, animações leves e armazenamento local (localStorage) para simular cadastros e registros de doação.
 
-Planejamento do banco de dados.
+Principais funcionalidades
 
-Desenvolvimento do protótipo funcional.
+Página inicial com missão da ONG e informações de contato.
+
+Página de projetos sociais com descrição das ações e como ajudar.
+
+Formulário de cadastro de voluntários (validação com JavaScript).
+
+Formulário de doação (simulação) com feedback visual e registro local.
+
+Seção de recursos: dicas de cuidado, alimentação adequada e primeiros socorros básicos para cães.
+
+Design responsivo e acessível (estrutura semântica e atributos ARIA onde aplicável).
 
 🔗Link da Hospedagem: 
