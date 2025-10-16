@@ -1,1 +1,123 @@
 
+/* ======= ESTILO GERAL ======= */
+:root {
+    --primaria: #ffb300;
+    --secundaria: #ff6f00;
+    --neutra: #333;
+    --clara: #fff;
+    --fundo: #f8f8f8;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--fundo);
+    color: var(--neutra);
+    margin: 0;
+    padding: 0;
+}
+
+/* ======= CABEÇALHO ======= */
+header {
+    background: var(--primaria);
+    color: var(--clara);
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* ======= NAVEGAÇÃO ======= */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background: var(--secundaria);
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+nav a {
+    color: var(--clara);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover,
+nav a.ativo {
+    background: var(--primaria);
+    border-radius: 5px;
+}
+
+/* ======= CONTEÚDO ======= */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+main img {
+    width: 80%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* ======= FORMULÁRIOS ======= */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+input,
+select,
+textarea,
+button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background: var(--secundaria);
+    color: var(--clara);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: var(--primaria);
+}
+
+/* ======= RODAPÉ ======= */
+footer {
+    background: var(--secundaria);
+    color: var(--clara);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* ======= GRID CONTATO ======= */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+   
