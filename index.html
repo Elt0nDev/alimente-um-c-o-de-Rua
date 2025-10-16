@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ONG Alimente um Cão de Rua</title>
-
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ONG Alimente um Cão de Rua</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header>
+    <img src="jpg6.jpg" alt="Logotipo cachorro" class="logo">
+    <h1>ONG Alimente um Cão de Rua</h1>
+    <p>Ajude-nos a alimentar e cuidar dos cães em situação de rua!</p>
+  </header>
 
-    <header>
-        <img src="jpg6.jpg" alt="Logotipo cachorro" width="250">
-        <h1>ONG Alimente um Cão de Rua</h1>
-        <p>Ajude-nos a alimentar e cuidar dos cães em situação de rua!</p>
-    </header>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="ativo">Início</a></li>
+      <li><a href="projeto.html">Projetos</a></li>
+      <li><a href="cadastro.html">Cadastro</a></li>
+    </ul>
+  </nav>
 
-    <nav aria-label="Navegação Principal">
-        <ul>
-            <li><a href="index.html">inicio</a></li>
-            <li><a href="projeto.html">Projetos</a></li>
-            <li><a href="cadastro.html">Casdastro</a></li>
-        </ul>
+  <main>
+    <section id="sobre">
+      <h2>Sobre o Projeto</h2>
+      <p>
+        A <strong>ONG Alimente um Cão de Rua</strong> é uma organização sem fins lucrativos que trabalha
+        para alimentar, tratar e encontrar lares para cães em situação de rua.
+      </p>
+      <img src="jpg3.jpg" alt="Cães sendo alimentados">
+    </section>
+  </main>
 
-    </nav>
+  <footer>
+    © <span id="ano"></span> ONG Alimente um Cão de Rua — Todos os direitos reservados.
+  </footer>
 
-    <main class="container">
-        <section id="sobre">
-            <h2>Sobre o Projeto</h2>
-            <p>
-                A ONG <strong>Alimente um Cão de Rua</strong> é uma organização sem fins lucrativos que trabalha
-                para alimentar, tratar e encontrar lares para cães em situação de rua. Nosso objetivo é reduzir
-                o sofrimento animal e promover a adoção responsável.
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
